@@ -1,0 +1,3 @@
+#/bin/bash
+psql -d issue16 -U postgres -c "CREATE extension IF NOT EXISTS tablefunc;"
+./node_modules/postgraphql/build/postgraphql/cli.js -c postgres://localhost:/issue16

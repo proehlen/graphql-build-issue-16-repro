@@ -1,0 +1,3 @@
+#/bin/bash
+psql -U postgres postgres -c "CREATE DATABASE issue16"
+./node_modules/postgraphql/build/postgraphql/cli.js -c postgres://localhost:/issue16

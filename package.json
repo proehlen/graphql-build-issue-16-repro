@@ -1,0 +1,14 @@
+{
+  "name": "graphql-build-issue-16-repro",
+  "version": "1.0.0",
+  "description": "Repro for issue 16 postgraphql/graphql-build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Roehlen",
+  "license": "MIT",
+  "dependencies": {
+    "postgraphql": "^4.0.0-alpha1.3"
+  }
+}
